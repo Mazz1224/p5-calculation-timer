@@ -145,6 +145,7 @@ function keyPressed() {
 					subjectAnswer: ans,
 					answer: problem.answer,
 					difficulty: problem.difficulty,
+					terms: problem.term.length,
 					time: floor((millis() - problem.startTime)) / 1000,
 					correct: problem.check(ans)
 				});
