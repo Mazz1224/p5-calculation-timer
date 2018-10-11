@@ -47,13 +47,11 @@ function draw() {
 			textAlign(CENTER, TOP);
 			textSize(height / 30);
 			text(
-				'This test is an infinite stream of math problems that increase in\n' +
-				'difficulty (term count) as you solve problems.\n' +
-				'The objective of this experiment is to see whether using a calculator to solve\n' +
-				'math problems is faster or not.' +
-				'To give the best results, try this with and without a calculator in separate runs\n' +
-				'but please don\'t switch your method of calculation in the middle of a session because\n' +
-				'that messes up the data.', width / 2, height / 4);
+				'This test is an infinite stream of math problems that increase in difficulty (term count)\n' +
+				'as you solve problems. The objective of this experiment is to see whether using a calculator\n' +
+				'to solve math problems is faster or not. To give the best results, try this with and without\n' +
+				'a calculator in separate runs but please don\'t switch your method of calculation in the middle\n' +
+				'of a session because that messes up the data.', width / 2, height / 4);
 				
 			fill(252, 46, 10);
 			textAlign(CENTER, BOTTOM);
@@ -73,7 +71,7 @@ function draw() {
 
 			fill(255);
 			textAlign(CENTER, CENTER);
-			textSize(height / 20);
+			textSize(height / 15);
 			text(problem.question + ' = ' + ans, width / 2, height / 2);
 
 			textAlign(LEFT, TOP);
@@ -94,7 +92,7 @@ function draw() {
 					fill(0, 100, 75);
 				}
 
-				text(tempLog[i].question + ' = ' + tempLog[i].subjectAnswer + ': ' + tempLog[i].time, width, i * (height / 20) + 5);
+				text(tempLog[i].question + ' = ' + tempLog[i].subjectAnswer + ': ' + tempLog[i].time, width, i * (height / 17));
 			}
 
 			break;
