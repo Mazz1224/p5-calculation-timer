@@ -189,13 +189,8 @@ function keyPressed() {
 			} else if(keyCode == 13) {
 				switch(gameOverScreen.stage) {
 					case 0:
-						if(gameOverScreen.name == '') {
-							if(flash.length < 3) {
-								flash.push(new Flash(0, 30));
-							}
-						} else {
-							gameOverScreen.stage++;
-						}
+						gameOverScreen.name == 'anonymous';
+						gameOverScreen.stage++;
 
 						break;
 					//

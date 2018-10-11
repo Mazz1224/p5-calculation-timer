@@ -22,7 +22,7 @@ class GameOverScreen {
 						text('You answered ' + log.length + ' question', width / 2, height / 8);
 					}
 
-					text('Please enter your name: ' + this.name, width / 2, height / 4);
+					text('Please enter your name (or nothing to remain anonymous): ' + this.name, width / 2, height / 4);
 				} else {
 					text('You didn\'t answer any questions.', width / 2, height / 8);
 				}
