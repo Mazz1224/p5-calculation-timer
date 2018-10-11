@@ -51,7 +51,8 @@ function draw() {
 				'as you solve problems. The objective of this experiment is to see whether using a calculator\n' +
 				'to solve math problems is faster or not. To give the best results, try this with and without\n' +
 				'a calculator in separate runs but please don\'t switch your method of calculation in the middle\n' +
-				'of a session because that messes up the data.', width / 2, height / 4);
+				'of a session because that messes up the data. Press ESCAPE when you don\'t feel like answering\n' +
+				'math problems anymore.', width / 2, height / 4);
 				
 			fill(252, 46, 10);
 			textAlign(CENTER, BOTTOM);
