@@ -41,7 +41,7 @@ function draw() {
 			fill(255);
 			textAlign(CENTER);
 			textSize(height / 20);
-			text('Psychology Experiment Involving Basic Arthimetic', width / 2, height / 5);
+			text('Calculation Timer', width / 2, height / 5);
 			
 			fill(249, 216, 29);
 			textAlign(CENTER, TOP);
