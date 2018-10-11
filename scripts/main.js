@@ -47,11 +47,13 @@ function draw() {
 			textAlign(CENTER, TOP);
 			textSize(height / 30);
 			text(
-				'Be consistent with your calculation device, don\'t change partway through.\n' +
-				'Immediately after pressing the button below, a basic arthimetic problem\n' +
-				'will be displayed on screen which you should solve as fast as possible.\n' +
-				'The time it takes for you to finish will be recorded along with the problem and your answer.\n' +
-				'Over time the amount of terms will increase, good luck.', width / 2, height / 4);
+				'This test is an infinite stream of math problems that increase in\n' +
+				'difficulty (term count) as you solve problems.\n' +
+				'The objective of this experiment is to see whether using a calculator to solve\n' +
+				'math problems is faster or not.' +
+				'To give the best results, try this with and without a calculator in separate runs\n' +
+				'but please don\'t switch your method of calculation in the middle of a session because\n' +
+				'that messes up the data.', width / 2, height / 4);
 				
 			fill(252, 46, 10);
 			textAlign(CENTER, BOTTOM);
