@@ -76,7 +76,7 @@ function draw() {
 			text(problem.question + ' = ' + ans, width / 2, height / 2);
 
 			textAlign(LEFT, TOP);
-			text(floor((millis() - problem.startTime)) / 1000, 0, 0);
+			text('#' + (log.length + 1) + ' - ' + floor((millis() - problem.startTime)) / 1000, 0, 0);
 			
 			textAlign(CENTER, TOP);
 			text('Difficulty: 2 - ' + (problem.difficulty - 1), width / 2, 0);
@@ -142,6 +142,7 @@ function keyPressed() {
 				}
 
 				log.push({
+					number: log.length + 1,
 					question: problem.question,
 					subjectAnswer: ans,
 					answer: problem.answer,
